@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="se.mah.da401a_assignment_2.AuthFragment">
+
+    <EditText
+        android:id="@+id/fragment_auth_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="username"/>
+
+    <EditText
+        android:id="@+id/fragment_auth_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_auth_username"
+        android:hint="password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/fragment_auth_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_auth_password"
+        android:layout_marginBottom="50dp"
+        android:text="Login"/>
+
+
+    <Button
+        android:id="@+id/fragment_auth_register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_auth_login_button"
+        android:text="register"/>
+
+</RelativeLayout>
